@@ -130,8 +130,7 @@ To activate the Database Secrets Engine, run the following command:
 `vault secrets enable database`
 
 Now create the DB-Config. You can choose as a name whatever you want. In our use case we
-chose `mariadb-config`.
-`bot-connectors-dev`. This name is only **vault specific**. It has nothing to do with
+chose `bot-connectors-dev`. This name is only **vault specific**. It has nothing to do with
 the database itself.
 Next, we have to configure the config for vault:
 
