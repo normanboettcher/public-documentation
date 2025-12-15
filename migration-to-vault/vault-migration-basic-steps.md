@@ -49,6 +49,7 @@ If errors are thrown by systemctl check the logs via
 Some errors: port 8200 is already in use or bugs in vault.hcl.
 E.g. if you have HTTPS and HTTP Listeners enabled in your `vault.hcl` file, you
 will get an error if both are pointing to a path with the same port such as 8200
+
 ---
 
 ## 3. `vault.hcl` - minimal config
@@ -148,6 +149,8 @@ Vault.
 So we can use `127.0.0.1` in the `connection_url`.
 **Note:** The `connection_url` is important for vault because this is how the actual
 connection to the MariaDB Instance is established.
+
+
 ---
 
 ## 7. MariaDB: User and Privileges
